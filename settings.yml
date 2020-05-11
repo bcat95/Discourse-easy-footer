@@ -1,31 +1,31 @@
 Heading:
-  default: "This is a header"
+  default: "Thư viện mua sắm"
   max: 25
   description:
     en: "Text for the heading in the footer - you can use your site name for example - Max length 25 characters"
 Blurb:
-  default: "Ius vitae ornatus at, ei mea sumo quot dicant. Ei tale democritum eos, in mea timeam accumsan forensibus. Ei his aperiam suavitate. Et debitis convenire sea, viris dictas latine."
+  default: "Địa chỉ hướng dẫn mua sắm, cung cấp kiến thức, hỗ trợ tìm chọn những sản phẩm giá tốt, chất lượng và uy tín, góp phần tiết kiệm thời gian, công sức và chi phí."
   max: 180
   description:
     en: "Enter a short blurb about your community - Max length 180 characters"
 Link_sections:
   type: list
-  default: "Design, Get inspired!|Code, Learn new things!|Business, Start a new career!|Shop, Buy cool stuff!|Community, The latest news about the people you care about!|World, Check out what's happening"
+  default: "Gợi ý, Gợi ý mua sắm|Khuyến mãi, Khuyến mãi|Thương hiệu, Thương hiệu|Liên kết, Liên kết khác"
   description:
     en: "Add link sections. The ideal number of sections is six. One item per line in this order:<br> Text, title<br><b>Text:</b> what appears on in the footer<br><b>Title:</b> the text that appears when the item is hovered."
 Links:
   type: list
-  default: "Design, Design process, #, blank, Learn the basics|Design, Blog design, #, blank, What makes for a great blog?|Design, Photoshop tutorials, #, blank, Photoshop for beginners|Design, Design trends, #, blank, Stay on top of the current trends!|Code, Wordpress, #, blank, Wordpress code examples|Code, Tools, #, blank, Tools that will make your life easier!|Code, Tutorials, #, blank, Just starting out? We'll guide you through the basics|Business, Blogging, #, blank, Why not start a blog?|Business, Social media, #, blank, Learn how to leverage Social media and make it work for your business|Business, Make money, #, blank, Everyone likes to be paid!|Business, Marketing, #, blank, No business will survive without customers...Here's how to get'em!|Shop, Vectors, #, blank, buy vectors|Shop, Textures, #, blank, buy textures|Shop, UI kits, #, blank, buy UI kits|Shop, PSDs, #, blank, Ready-made PSD's|Community, Your corner, #, blank, Tell us how you feel!|Community, Questions, #, blank, Feel like answering some questions?|Community, Members, #, blank, Say hi to new members|Community, trending, #, blank, Catch up with the latest trending topics!|World, Politics, #, blank, Stay up to date|World, Education, #, blank, The latest research|World, Automotive, #, blank, We cover the latest models!|World, Sports, #, The latest scores|World, Tech, #, Never miss a new gadget"
+  default: "Gợi ý, Nồi chiên không dầu, /c/8/25, blank, Các món ăn ngon đánh giá review nồi chiên không dầu|Gợi ý, Máy lạnh, /c/8/29, blank, Đánh giá máy lạnh - Ưu nhược điểm từng dòng máy lạnh|Gợi ý, Nồi cơm điện, /c/8/27, blank, Nồi cơm điện nào tốt - Hướng dẫn sử dụng bảo quản nồi cơm điện|Gợi ý, Nồi áp suất, /c/8/26, blank, Nồi áp suất nên dùng - Hướng dẫn sử dụng nồi áp suất|Gợi ý, Điện thoại, /c/8/28, blank, Đánh giá Review điện thoại|Khuyến mãi, Lazada, /c/6/14, self, Cập nhật khuyến mãi Lazada|Khuyến mãi, Shopee, /c/6/11, self, Cập nhật khuyến mãi Shopee|Khuyến mãi, Tiki, /c/7/13, self, Cập nhật khuyến mãi Tiki|Thương hiệu, Enchanteur, /t/357, self, Enchanteur – sản phẩm chăm sóc da và tóc bán chạy số 1 Việt Nam|Thương hiệu, Ofélia, /t/368, self, Ofélia Los Angeles-Thương hiệu “Thánh Son” chất lượng Mỹ của người Việt|Thương hiệu, Olay, /t/375, self, Olay - Thương hiệu chăm sóc da biết đến rộng rãi nhất trên toàn cầu|Thương hiệu, Toshiba, /t/371, self, Toshiba - Hàng xịn giá tốt, ưu đãi ngập tràn|Liên kết, Hướng dẫn mua sắm, /c/9, self, Hướng dẫn mua sắm Adayroi, Shopee,Sendo trên App và Website|Liên kết, Hỏi đáp, c/10, self, Hỏi đáp mua sắm giải đáp thắc mắc|Liên kết, Mua sắm hoàn tiền, c/16, self, Hoàn tiền mua sắm bí quyết tiết kiệm hiệu quả"
   description:
     en: "Add links to link sections. One item per line in this order:<br>Parent, text, URL, target, title<br>It is a good idea to keep the number of links under each section similar<br><b>Parent:</b> the name of the parent section which this link shows under. Use the `text` value from the list above<br><b>Text:</b> the text that shows for this link<br><b>URL:</b> the path this item links to. You can use relative paths as well.<br><b>Target:</b> Choose whether this item will open in a new tab or in the same tab. Use blank to open the link in a new tab, or use self to open it in the same tab.<br><b>Title:</b> the text that shows when the link is hovered."
 Small_links:
   type: list
-  default: "Privacy, #, self|Terms of service, #, self| About, #, self"
+  default: "Chính sách Bảo mật, /privacy, self|Điều khoản sử dụng, /tos, self|Giới thiệu, /about, self"
   description:
     en: "You can add small links at the bottom of the footer like Terms of Service and Privacy. One item per line in this order:<br>Text, URL, target<br><b>Text:</b> The text that shows for the small link<br><b>URL:</b> The path of the link<br><b>Target:</b> Use blank to open the link in a new tab and use self to open it in the same tab"
 Social_links:
   type: list
-  default: "Facebook, Join us on Facebook, #, blank,fab-facebook|Twitter, show some love on Twitter, #, blank,fab-twitter| Youtube, Check out our latest videos on Youtube, #, blank,fab-youtube"
+  default: "Facebook, Tham gia cùng chúng tôi trên Facebook, https://www.facebook.com/thuvienmuasam/, blank,fab-facebook|Twitter, Chúng tôi trên Twitter, https://twitter.com/thuvienmuasam, blank,fab-twitter|Youtube, Xem video mới nhất của chúng tôi trên Youtube, https://www.youtube.com/channel/UC77iH5k7g21D6NfCt0i9WMA, blank,fab-youtube"
   description:
     en: "Enter the social links you'd like to add to the footer in this format:<br> provider, title, URL, target<br><b>Provider:</b> is the name of the provider like Facebook or Twitter<br><b>Title:</b> The text that shows when the link is hovered<br><b>URL:</b> The path you'd like the link to have<br><b>Target:</b> Use blank to open the link in a new tab and use self to open it in the same tab<br><b>Icon:</b> use a FontAwesome5 icon name (brand icons need a 'fab-' prefix)."
 svg_icons:
