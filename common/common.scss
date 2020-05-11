@@ -7,7 +7,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: $secondary;
+    color: $secondary-high;
     padding: 2em 0 1em 0;
   }
   .first-box {
@@ -74,9 +74,6 @@
   }
   .list span {
     font-weight: bold;
-  }
-  .footer-section-link-wrapper a {
-    color: $secondary-high;
   }
   .list {
     margin: 1em;
