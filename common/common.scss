@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   background: $primary;
+  background: #272727 radial-gradient(ellipse farthest-corner at 120% 150%,#0e6c97 20%,transparent 60%) 100% 100% no-repeat;
   .flexbox {
     width: 100%;
     display: flex;
@@ -10,7 +11,7 @@
     padding: 2em 0 1em 0;
   }
   .first-box {
-    max-width: 20%;
+    max-width: 25%;
     .heading {
       font-size: $font-up-2;
       font-weight: bold;
@@ -30,7 +31,7 @@
       ul {
         list-style: none;
         margin: 0;
-        min-width: 100px;
+        min-width: 150px;
       }
       li {
         margin: 0.5em 0;
