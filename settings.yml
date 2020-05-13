@@ -10,7 +10,7 @@ Blurb:
     en: "Enter a short blurb about your community - Max length 180 characters"
 Link_sections:
   type: list
-  default: "Danh mục, Danh mục|Gợi ý, Gợi ý mua sắm|Khuyến mãi, Khuyến mãi|Thương hiệu, Thương hiệu|Liên kết, Liên kết khác"
+  default: "Danh mục, Danh mục|Gợi ý, Gợi ý mua sắm|Thương hiệu, Thương hiệu|Liên kết, Liên kết khác"
   description:
     en: "Add link sections. The ideal number of sections is six. One item per line in this order:<br> Text, title<br><b>Text:</b> what appears on in the footer<br><b>Title:</b> the text that appears when the item is hovered."
 Links:
